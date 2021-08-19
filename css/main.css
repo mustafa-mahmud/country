@@ -1,0 +1,114 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  width: 50rem;
+  margin-top: 5rem;
+}
+
+.container form {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.container form input {
+  height: 3.5rem;
+  width: 25rem;
+  border-radius: 3px;
+  border: 0;
+  outline: none;
+  font-size: 1.6rem;
+  padding: 5px;
+}
+
+.container__country {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #999;
+  border-radius: 1rem;
+  padding: 2rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container__country .country {
+  width: 25rem;
+  border-radius: 5px;
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 1rem rgba(0, 0, 0, 0.6);
+          box-shadow: 5px 5px 1rem rgba(0, 0, 0, 0.6);
+  margin-bottom: 2rem;
+}
+
+.container__country .country img {
+  width: 100%;
+  height: 15rem;
+}
+
+.container__country .country div {
+  padding: 1rem;
+}
+
+.container__country .country div p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1rem;
+  padding-bottom: 5px;
+  font-size: 1.4rem;
+  border-bottom: 1px solid;
+}
+
+.container .neibour {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .neibour .country {
+  width: 20rem;
+}
