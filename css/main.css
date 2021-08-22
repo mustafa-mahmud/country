@@ -57,6 +57,10 @@ body {
       flex-wrap: wrap;
 }
 
+.container span {
+  word-break: break-all;
+}
+
 .container__country {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -119,7 +123,7 @@ body {
   border-bottom: 1px solid;
 }
 
-.container .neibour {
+.container .neighbour {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -129,31 +133,38 @@ body {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.container .neibour .country {
+.container .neighbour h3 {
+  width: 100%;
+  float: right;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.container .neighbour .country {
   width: 20rem;
   border-radius: 5px;
   background-color: #fff;
   border: 1px solid;
   -webkit-box-shadow: 5px 5px 1rem rgba(0, 0, 0, 0.6);
           box-shadow: 5px 5px 1rem rgba(0, 0, 0, 0.6);
-  margin-bottom: 2rem;
+  margin: 1rem;
 }
 
-.container .neibour .country img {
+.container .neighbour .country img {
   width: 100%;
   height: 15rem;
 }
 
-.container .neibour .country div {
+.container .neighbour .country div {
   padding: 1rem;
 }
 
-.container .neibour .country div p {
+.container .neighbour .country div p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
